@@ -1,0 +1,8 @@
+The command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword will print the password at console.
+
+If you are running Jenkins in Docker using the official jenkins/jenkins image you can use sudo docker exec ${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword to print the password in the console without having to open an interactive shell inside the container.
+
+On the Unlock Jenkins page, paste this password into the Administrator password field and click Continue.
+Note:
+
+The Jenkins console log indicates the location (in the Jenkins home directory) where this password ca
