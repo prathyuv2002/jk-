@@ -3,6 +3,6 @@ After downloading, installing, and running Jenkins using one of the procedures a
 
 The setup wizard takes you through a few quick one-time steps to unlock Jenkins, customize it with plugins, and create the first administrator user through which you can continue accessing Jenkins.
 
-Unlocking Jenkins
+
 When you first access a new Jenkins controller, you are asked to unlock it using an automatically-generated password.
 he is my favorite
